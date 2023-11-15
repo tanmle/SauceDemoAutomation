@@ -82,7 +82,11 @@ After having Nodejs installed, in the root folder of the project, run the follow
 npm install
 ```
 
-Then run the following command to run the tests:
+Then run the following command to run all the tests:
 ```bash
 npm run wdio
+```
+If you want to run a single test, run the following command ([path-to-feature] could be `test\features\inventory\inventory.feature`):
+```bash
+npm run wdio-spec [path-to-feature]
 ```
